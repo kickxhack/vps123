@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 
 # ===================================================
-#  MAHIM NETWORK CONSOLE - NEXT GEN ULTRA EDITION
+#  J0o NETWORK CONSOLE - NEXT GEN ULTRA EDITION
 #                     2025 Edition
 # ===================================================
-#  Original Creator: MahimOp
-#  YouTube : https://www.youtube.com/@mahimxyz
-#  Discord : https://discord.gg/zkDNdPpArS
+#  Original Creator: J0o
 # ===================================================
 
 set -e
@@ -33,7 +31,7 @@ DANGER="\e[38;5;196m"
 
 clear
 
-# Epic Mahim Network Header
+# Epic J0o Network Header
 echo -e "${NEON_BLUE}"
 cat << "EOF"
  ___      ___       __       __    __   __     ___      ___ 
@@ -47,8 +45,8 @@ cat << "EOF"
 EOF
 echo -e "${NEON_PURPLE}${BOLD}             NEXT GEN ULTRA EDITION - 2025${RESET}"
 echo -e "${GLOW}             Advanced • Futuristic • Elite Automation${RESET}"
-echo -e "${DIM}      Original Creator: ${BOLD}MahimOp${RESET} ${DIM}| YouTube: @mahimxyz${RESET}"
-echo -e "${DIM}      Discord: https://discord.gg/zkDNdPpArS${RESET}"
+echo -e "${DIM}      Original Creator: ${BOLD}J0o${RESET} ${DIM}| YouTube: -------${RESET}"
+echo -e "${DIM}      Discord: -----------${RESET}"
 echo -e "${NEON_BLUE}══════════════════════════════════════════════════════════${RESET}\n"
 
 # Utility Functions
@@ -206,7 +204,7 @@ EOF
             echo -e "\n${CYAN}Streaming the latest version from GitHub...${RESET}\n"
 
             if command -v curl >/dev/null 2>&1; then
-                if bash <(curl -s https://raw.githubusercontent.com/mahimxyzz/vps123/refs/heads/main/script); then
+                if bash <(curl -s https://raw.githubusercontent.com/kickxhack/vps123/refs/heads/main/script); then
                     success "Cloud VM Manager session completed successfully."
                 else
                     error "Failed to fetch or execute the script."
@@ -236,12 +234,12 @@ EOF
 EOF
             print_box_header "SESSION TERMINATED" $DANGER
 
-            echo -e "\n${WHITE}${BOLD}   Thank you for using Mahim Network Console!${RESET}"
-            echo -e "${YELLOW}${BOLD}           Made with ❤️ by MahimOp${RESET}\n"
+            echo -e "\n${WHITE}${BOLD}   Thank you for using J0o Network Console!${RESET}"
+            echo -e "${YELLOW}${BOLD}           Made with ❤️ by J0o${RESET}\n"
 
-            echo -e "${NEON_GREEN}${BOLD}Original Creator: MahimOp${RESET}"
-            echo -e "${DIM}YouTube: https://www.youtube.com/@mahimxyz${RESET}"
-            echo -e "${DIM}Discord: https://discord.gg/zkDNdPpArS${RESET}\n"
+            echo -e "${NEON_GREEN}${BOLD}Original Creator: J0o${RESET}"
+            echo -e "${DIM}YouTube: --------z${RESET}"
+            echo -e "${DIM}Discord: ----------${RESET}\n"
 
             echo -e "${GLOW}${BOLD}See you in the next session, Operator! 🚀${RESET}\n"
             exit 0
